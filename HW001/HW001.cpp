@@ -8,24 +8,7 @@ using namespace std;
 
 int main()
 {
-    int x = 2, n = 5;
-    vector<long long> answer;
-
-    for (int i = 0; i < n; i++) {
-        answer[i] = x * (i + 1);
-    }
-
-    cout >> answer >> endl;
-
+    cout << "Hello World!" << endl;
     return 0;
-}
 
-/*
-vector<long long> solution(int x, int n) {
-    vector<long long> answer;
-    for (int i = 0; i < n; i++) {
-        answer[i] = x * (i + 1);
-    }
-    return answer;
 }
-*/
